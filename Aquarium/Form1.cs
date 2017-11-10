@@ -16,27 +16,21 @@ namespace Aquarium
         {
             InitializeComponent();
         }
-
+        bool flag;
         private void button1_Click(object sender, EventArgs e)
         {
+            flag = true;
             pictureBox1.Visible = true;
             fish.Visible = true;
             pictureBox1.Width = Width;
             pictureBox1.Height = Height;
             fish.Height = 198;
             fish.Width = 374;
-            
-            //Image a = fish.Image;
-            //a.RotateFlip(RotateFlipType.RotateNoneFlipY);
-            //fish.Image = a;
-            //for(int i=1; i<10;i++)
-            //{
-            //    fish.Left += i * 100;
-            //}
-        }
+         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            flag = false;
             Image a = fish.Image;    //все 3 строчки зеркально отражают картинку рыбы в picturebox
             a.RotateFlip(RotateFlipType.RotateNoneFlipY);
             fish.Image = a;
@@ -49,6 +43,17 @@ namespace Aquarium
                 fish.Top -= 20;
             else
                 timer1.Enabled = false;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            if (flag == true)
+            {
+                FishAdult a = new FishAdult();
+                Graphics g = pictureBox1.CreateGraphics();
+                a.Create(MousePosition.X, MousePosition.Y, g);
+                flag = false;
+            }
         }
     }
 }

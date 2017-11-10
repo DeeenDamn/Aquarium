@@ -7,3 +7,6 @@ C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Aquarium\Aqua
 C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Aquarium\Aquarium\obj\Debug\Aquarium.csproj.GenerateResource.Cache
 C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Aquarium\Aquarium\obj\Debug\Aquarium.exe
 C:\Users\DENIS\Desktop\Немного прог\2 курс\ЯиСП\Aquarium\Aquarium\obj\Debug\Aquarium.pdb
+C:\Users\mariy\Desktop\Аквуриум 2\Aquarium\Aquarium\bin\Debug\Aquarium.exe.config
+C:\Users\mariy\Desktop\Аквуриум 2\Aquarium\Aquarium\obj\Debug\Aquarium.exe
+C:\Users\mariy\Desktop\Аквуриум 2\Aquarium\Aquarium\obj\Debug\Aquarium.pdb

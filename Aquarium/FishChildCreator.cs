@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Drawing;
 
 namespace Aquarium
 {
-    class FishChildCreator: ICreator
+    class FishChildCreator : ICreator
     {
-        public void Create()
+        public IFish Create(int x, int y, Graphics g)
         {
-            int a = 0;
+
         }
     }
 }

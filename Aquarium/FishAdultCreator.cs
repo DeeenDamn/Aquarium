@@ -3,14 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 
 namespace Aquarium
 {
-    class FishAdultCreator: ICreator
+    class FishAdultCreator : ICreator
     {
-        public void Create()
+        public IFish Create(int x, int y, Graphics g)
         {
-
+            g.DrawImage(Image.FromFile("fish1.jpg"), x, y);
+            return new FishAdult();
         }
     }
 }
